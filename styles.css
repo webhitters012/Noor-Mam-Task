@@ -1,86 +1,67 @@
- /* Container Styling */
- .email-signature {
-    max-width: 600px; /* Adjust for mobile */
+.email-signature {
+    width: 1200px;
     background: #ffffff;
     border-left: 3px solid red;
     padding: 15px;
     font-family: Arial, sans-serif;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    margin: auto; /* Center alignment */
 }
 
-/* Profile Image */
 .profile-img {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     object-fit: cover;
-    display: block;
-    margin: auto;
 }
 
-/* Name Styling */
-.abc {
-    font-family: 'Dancing Script', cursive;
-    font-size: 24px;
-    text-align: center;
-    margin-top: 10px;
+.abc{
+    font-family: 'Dancing Script';
+    font-size: 32px;
+    margin-top: 20px;
 }
 
 .name {
-    font-size: 22px;
+    font-size: 30px;
     font-weight: bold;
     color: #de3335;
-    text-align: center;
+    margin-top: 20px;
 }
 
-.designation, .company {
-    font-size: 16px;
-    text-align: center;
-    margin: 5px 0;
+.designation {
+    font-size: 20px;
+    color: black;
+    margin-top: -10px;
 }
 
 .company {
+    font-size: 18px;
+    color: black;
     font-weight: bold;
+    margin-top: -10px;
 }
 
-/* Social Media Icons */
-.social-icons {
-    text-align: center;
+.social-icon{
     margin-top: 10px;
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
 }
 
-.social-icons a {
-    display: inline-block;
-    margin: 5px;
-}
-
-.social-icon {
-    width: 24px;
-    height: 24px;
-}
-
-/* Right Section */
 .right-section {
-    border-left: 3px solid #de3335;
-    padding-left: 10px;
+    border-left: 5px solid #de3335;
+    padding-left: 20px;
+}
+.img-responsive{
+    height: 120px;
+}
+.contact{
+    height: 20px;
+    width: 20px;
+}
+.contact-info{
     margin-top: 15px;
-    text-align: center;
+    font-size: 18px;
 }
-
-/* Contact Info */
-.contact-info {
-    font-size: 14px;
-    margin-bottom: 8px;
-}
-
-.contact-info img {
-    width: 16px;
-    height: 16px;
-    vertical-align: middle;
-}
-
-/* Responsive Design */
 @media (max-width: 767px) {
     .email-signature {
         padding: 10px;
@@ -88,18 +69,32 @@
     .profile-img {
         width: 60px;
         height: 60px;
+        margin-left: 100px;
     }
     .abc {
         font-size: 20px;
+        margin-left: 70px;
     }
     .name {
         font-size: 18px;
+        margin-left: 60px;
     }
-    .designation, .company {
+    .designation {
         font-size: 14px;
+        margin-left: 50px;
+    }
+    .company {
+        font-size: 14px;
+        margin-left: 100px;
+    }
+    .img-responsive{
+        margin-top: 20px;
+        height: 60px;
+        margin-left: 70px;
     }
     .contact-info {
         font-size: 12px;
+        margin-left: 80px;
     }
     .right-section {
         border-left: none;
